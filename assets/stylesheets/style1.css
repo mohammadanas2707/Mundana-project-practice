@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jost&family=Nunito:wght@1000&family=Playfair+Display:wght@700&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Jost&family=Nunito:wght@1000&family=Playfair+Display:wght@700&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,500;1,100&family=Source+Sans+Pro&display=swap');
+
+*{
+	text-decoration:none;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+	
+}
+li{
+	list-style-type:none;
+	
+}
+.tophead{
+	display:flex;
+	width:60%;
+	height:80px;
+	margin:0 20%;
+	background-color:white;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+.menubar{
+	display:flex;
+	width:70%;
+	align-items:center;
+	justify-content:space-between;
+	
+	
+}
+.logo{
+	width:15%;
+	font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	color:rgba(0, 0, 0, 0.9);
+	font-size:20px;
+	font-weight:700;
+	
+}
+.menu{
+	display:flex;
+	width:55%;
+	margin-left:30px;
+	list-style-type:none;
+}
+.menulist{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:16px;
+	font-weight:400;
+	color:rgba(0, 0, 0, 0.7);
+	padding:3px 25px;
+	
+}
+.btn1{
+	width: 30%;
+	margin-left:215px;
+	
+}
+.btnmain{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:15px;
+	font-weight:400;
+	color:#03A87C;
+	border:solid #03A87C 1px;
+	padding:5px 15px;
+	border-radius:3px;
+	
+}
+.btnmain:hover{
+	color:white;
+	background-color:#03A87C;
+	
+}
+
+.bannar{
+	display:flex;
+	width:60%;
+	height:450px;
+	margin:0 20%;
+	
+}
+.bannar .image img{
+	width:100%;
+	height:450px;
+	object-fit:cover;
+	
+}
+.para{
+	width:50%;
+	background-color:#ECF3E8;
+	padding:60px 30px;
+	
+}
+.image{
+	width:50%;
+	
+}
+.para h1{
+	font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:40px;
+	font-weight:700;
+	color:#212529;
+	margin-bottom:20px;
+}
+.para p{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:16px;
+	font-weight:400;
+	color:#212529;
+	margin-bottom:20px;
+	
+}
+.btn2{
+	background-color:#141210;
+	padding:12px 20px;
+	color:white;
+	border-radius:3px;
+	font-family:"Source Sans Pro";
+	
+	
+}
+.MainSection1{
+	display:flex;
+	width:60%;
+	height:350px;
+	margin:35px 20%;
+}
+.topNews{
+	flex-grow:1;
+	padding-right:30px;
+	width:50%;
+}
+.subhead{
+	flex-grow:1;
+	width:50%;
+}
+.bgImg{
+	background-image:url(../media/pic2.jpg);
+	padding:75px 0px;
+	
+}
+.contentpart1 h1 a:hover{
+	color:#03a87c;
+	
+}
+.contentpart1 h1 a{
+	color:#212529;
+	
+}
+.contentpart1 h1{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:24px;
+	font-weight:700;
+	
+	
+}
+.contentpart1{
+	padding-top:20px;
+	
+}
+.contentpart1 p a{
+	color:#212529;
+	
+}
+.img100{
+	width:100%;
+	height:auto;
+	
+	
+}
+.sideImg1{
+	flex-grow:2;
+	flex-basis:25%;
+	padding-bottom:20px;
+	
+	
+}
+.subContent1{
+	flex-grow:10;
+	flex-basis:75%;
+	padding:0px 0px 5px 15px;
+}
+.subContent1 h2{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:16px;
+	font-weight:700;
+	
+}
+.subContent1 h2 a{
+	
+	color:#212529;
+}
+.subContent1 h2 a:hover{
+	color:#03a87c;
+	text-decoration:underline;
+}
+.subContent1 p{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:14px;
+	font-weight:400;
+	
+}
+.subContentSection{
+	display:flex;
+}
+.MainSection2{
+	display:flex;
+	width:60%;
+	margin:35px 20%;
+	height:780px;
+	border-bottom:0.5px solid #6c757d;
+	
+}
+.ArticleSec{
+	flex-basis:65%;
+	padding-right:1%;
+	
+}
+.AsideSec{
+	flex-basis:35%;
+	padding-left:2%;
+	
+	
+}
+
+.sec1{
+	display:flex;
+	
+}
+.forcontent h1{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:24px;
+	font-weight:700;
+	
+}
+.forcontent{
+	flex-basis:74%;
+	flex-grow:10;
+	padding-right:10px;
+	margin-bottom:10%;
+	
+}
+.forimage{
+	flex-basis:26%;
+	flex-grow:1;
+	padding-left:10px; 
+	
+}
+.allStories{
+	width:100%;
+	border-bottom:0.5px solid #6c757d;
+	
+}
+.topname{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:20px;
+	font-weight:700;
+	width:15%;
+	padding:18px 0px;
+	border-bottom:0.8px solid #212529;
+	
+}
+.forcontent .p1{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:16px;
+	font-weight:400;
+	color:#212529;
+	
+}
+.forcontent .p2{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:14px;
+	font-weight:400;
+	color:#6c757d;
+	
+}
+.forcontent a{
+	color:#212529;
+	
+}
+.forcontent a:hover{
+	color:#03a87c;
+	text-decoration:underline;
+	
+}
+.sec1{
+	padding:30px 0px ;
+	height:210px;
+	
+}
+.popular{
+	width:100%;
+	border-bottom:0.5px solid #6c757d;
+}
+.topname2{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:20px;
+	font-weight:700;
+	width:19%;
+	padding:18px 0px;
+	border-bottom:0.8px solid #212529;
+}
+.nav1{
+	display:flex;
+	padding:10px 5px;
+	
+}
+.content1 h1{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:16px;
+	font-weight:700;
+	
+}
+.content1 p{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:13px;
+	font-weight:400;
+	
+}
+.content1 a{
+	color:#212529;
+	
+	
+}
+.content1 a:hover{
+	color:#03a87c;
+	text-decoration:underline;
+	
+	
+}
+.content1{
+	padding-left:7%;
+	
+}
+.secborder{
+	padding-top:30px;
+	
+}
+.footer{
+	display:flex;
+	height:80px;
+	width:60%;
+	margin:35px 20%;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px 0px;
+}
+.fMundana{
+	width:22%;
+	font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6c757d;
+	font-size:26px;
+	font-weight:700;
+	
+}
+.footersec1{
+	display:flex;
+	width:50%;
+	align-items:center;
+}
+.footersec2{
+	width:50%;
+	padding-left:425px;
+}
+.copyright p{
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	color:#6c757d;
+	font-size:14px;
+	font-weight:400;
+	
+}
+.footersec2 a{
+	color:#5f1cc5;
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:14px;
+	font-weight:400;
+	
+}
+.footersec2 a:hover{
+	color:#5f1cc5;
+	text-decoration:underline;
+	
+}
+.footersec2 p{
+	color:#6c757d;
+	font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size:14px;
+	font-weight:400;
+	
+}
